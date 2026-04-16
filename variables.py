@@ -43,7 +43,7 @@ print("Student name", name)
 print("Student age", age)
 print("Course name", course)
 
-10
+
 student_name= input("Enter a Name")
 age = input("Enter the age")
 city = input("Enter the City")
