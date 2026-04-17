@@ -59,6 +59,6 @@ total_cost= (price*quantity)
 print("product name", product_name)
 print("price is", str(price))
 print("quanitiy is", str(quantity))
-print("Total cost is", total_cost)
+print("Total cost is", total_cost))
 
 print(type(total_cost))

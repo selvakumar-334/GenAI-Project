@@ -1,10 +1,7 @@
-product_name= input("Enter a product name")
-price = int(input("Enter the price"))
-quantity=int(input("Enter a quantity"))
-total_cost= (price*quantity)
-print("product name", product_name)
-print("price is", str(price))
-print("quanitiy is", str(quantity))
-print("Total cost is", total_cost)
-
-print(type(total_cost))
+marks = int(input("enter a mark"))
+if marks>90:
+    print("grade is A")
+elif marks >=60 and marks <=89:
+    print("grade is B")
+else:
+    print("grade is C")
