@@ -1,3 +1,3 @@
-
-for i in range(1,6):
-    print("*" *i)
+words=["apple", "banana", "Cherry", "kiwi"]
+words.sort(key=len)
+print(words)
