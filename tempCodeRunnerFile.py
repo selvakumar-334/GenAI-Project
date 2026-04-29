@@ -1,3 +1,5 @@
-words=["apple", "banana", "Cherry", "kiwi"]
-words.sort(key=len)
-print(words)
+student = {"name":"Selva",
+           "age":40,
+           "city":"Chennai"}
+
+print(student[0])
