@@ -45,3 +45,69 @@ for i in range(0,50):
     else:
         print ("odd number")    
     
+name= input("Enter the name")
+age = input("enter the age")
+city = input("Enter the city")
+
+print("name is:", name) 
+print("age is:", str(age))
+print("city is:", city)  
+
+product=input("Enter a product name")
+price=int(input("Enter a price value"))
+quantity=int(input("Enter a quanitity"))
+total_cost=price*quantity
+print(total_cost)
+
+age=int(input("Enter the age"))
+
+if age >=18:
+    print("Eligible for vote")
+else:
+    print("not eligible for vote")
+    
+marks =int(input("Enter the mark"))
+if marks>=90:
+    print("grade A")
+elif marks>=60:
+    print("grade B")
+elif marks>=50:
+    print("grade C")
+else:
+    print("fail")
+    
+    
+
+x=5
+if x !=5:
+    print("value is not matching")
+else:
+    print("value is good")
+    
+age = 17
+if age >=18 and age<=60:
+    print("Working person")
+else:
+    print("not working person")
+    
+day= "monday"
+if day == "saturday" or day == "sunday":
+    print("Weekend")
+else:
+    print("weekday") 
+    
+number = int(input("enter a number"))
+if number %2==0:
+    print("Even number")
+else:
+    print("odd number")
+    
+num1 =int(input("Enter a frist number"))
+num2= int(input("Enter a second number"))
+if num1>num2:
+    print("num1 is greater than num2")
+elif num2>num1:
+    print("num2 is greater than num1")
+
+    
+

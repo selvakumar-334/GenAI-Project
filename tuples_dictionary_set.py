@@ -8,6 +8,7 @@ print(students)
 #lists mutable
 
 student = ["Selva", "kani", "sankar", "vishnu"]
+student.append("nandhu")
 print(student)
 
 #lists duplicates
