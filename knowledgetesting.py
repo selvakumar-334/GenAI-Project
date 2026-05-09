@@ -109,5 +109,60 @@ if num1>num2:
 elif num2>num1:
     print("num2 is greater than num1")
 
+
+for i in range(0,10):
+    print(i)
     
 
+
+for i in range(0,10,2):
+    print(i)
+    
+for i in range(1,6):
+    print(i)
+    
+for i in range(10):
+    if i==5:
+        continue
+    print(i)
+
+i=1
+while i<=5:
+        print(i)
+        i=i+1
+        
+for i in range(3):
+    for j in range(3):
+        print(i,j)
+    
+    
+for i in range(1,21):
+    print(i)
+    
+for i in range(0,50,2):
+    print(i)
+    
+text="Generative AI"
+print(len(text))
+
+secret_number=7
+
+while True:
+    guess=int(input("enter a number"))
+    
+    if guess==secret_number:
+        print("correct! You guessed the secret number")
+        break
+    else:
+        print("Wrong guess Plesae try again")
+        
+        *
+        **
+        ***
+        ****
+        *****
+        ******
+        
+for i in range(1,7):
+    print("*" *i)   
+        
